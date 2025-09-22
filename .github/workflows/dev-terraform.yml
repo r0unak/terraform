@@ -3,9 +3,7 @@ name: Dev Environment
 on:
   push:
     branches: [ main ]
-    paths:
-      - '**.tf'
-      - '**/*.tf'
+  workflow_dispatch:
 
 jobs:
   terraform:
